@@ -9,7 +9,11 @@
 
     invokeBuild                 = 'latest'
     PSScriptAnalyzer            = 'latest'
+<<<<<<< HEAD
+    pester                      = '4.10.1'
+=======
     pester                      = 'latest'
+>>>>>>> c0650de5af6f5eddcf6f860c677b048087a1b1e0
     Plaster                     = 'latest'
     ModuleBuilder               = '1.0.0'
     ChangelogManagement         = 'latest'

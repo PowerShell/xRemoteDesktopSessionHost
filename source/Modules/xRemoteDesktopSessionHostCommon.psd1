@@ -70,7 +70,10 @@ Description = 'Functions used by the DSC resources in xRemoteDesktopSessionHost.
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
 FunctionsToExport = @(
+<<<<<<< HEAD
+=======
     'Get-LocalizedData'
+>>>>>>> c0650de5af6f5eddcf6f860c677b048087a1b1e0
     'Get-xRemoteDesktopSessionHostOsVersion'
     'Test-xRemoteDesktopSessionHostOsRequirement'
 )

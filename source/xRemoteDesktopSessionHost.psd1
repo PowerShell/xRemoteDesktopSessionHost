@@ -31,7 +31,10 @@
 
     # DSC resources to export from this module
     DscResourcesToExport = @(
+<<<<<<< HEAD
+=======
         'xRDCertificateConfiguration'
+>>>>>>> c0650de5af6f5eddcf6f860c677b048087a1b1e0
         'xRDGatewayConfiguration'
         'xRDLicenseConfiguration'
         'xRDRemoteApp'

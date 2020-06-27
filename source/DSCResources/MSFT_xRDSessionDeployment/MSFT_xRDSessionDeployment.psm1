@@ -1,8 +1,12 @@
 Import-Module -Name "$PSScriptRoot\..\..\Modules\xRemoteDesktopSessionHostCommon.psm1"
+<<<<<<< HEAD:source/DSCResources/MSFT_xRDSessionDeployment/MSFT_xRDSessionDeployment.psm1
+if (!(Test-xRemoteDesktopSessionHostOsRequirement)) { throw "The minimum OS requirement was not met."}
+=======
 if (!(Test-xRemoteDesktopSessionHostOsRequirement))
 {
     throw "The minimum OS requirement was not met."
 }
+>>>>>>> c0650de5af6f5eddcf6f860c677b048087a1b1e0:source/DSCResources/MSFT_xRDSessionDeployment/MSFT_xRDSessionDeployment.psm1
 Import-Module RemoteDesktop
 
 #######################################################################
